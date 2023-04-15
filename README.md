@@ -28,3 +28,7 @@ g++ -c -fPIC -I${JAVA_HOME}/include -I${JAVA_HOME}/include/linux [file.cc] -o [f
 ```bash
 g++ -shared -fPIC -o [libnative.so] [fileName.o] -lc
 ```
+
+------------
+
+Developed by Samuel Ariza, EAFIT University student.
