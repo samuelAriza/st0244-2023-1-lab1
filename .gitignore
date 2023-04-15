@@ -1,0 +1,7 @@
+#.gitignore 
+#Ignore files ending in the following extensions
+*.class
+*.h
+*.o
+*.so
+
