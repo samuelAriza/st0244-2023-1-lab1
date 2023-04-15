@@ -28,6 +28,10 @@ g++ -c -fPIC -I${JAVA_HOME}/include -I${JAVA_HOME}/include/linux [file.cc] -o [f
 ```bash
 g++ -shared -fPIC -o [libnative.so] [fileName.o] -lc
 ```
+```bash
+java -cp . -Djava.library.path=. Lab1 [arrayofNumbers. Ej : 1 2 3]  
+```
+
 
 ------------
 
