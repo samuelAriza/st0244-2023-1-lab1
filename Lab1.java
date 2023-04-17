@@ -31,12 +31,15 @@ class Lab1{
     /*
      * Create a new File object to which the first element coming from
      * the command line is sent as a parameter.
+     * 
     */
     File f = new File(args[0]);
     
     /*
      * Scanner object called "input", which is used to
      * read the file from the variable f.
+     * Code taken and modified from:
+     * https://n9.cl/5hyu7
     */
     try (Scanner entrada = new Scanner(f)){
       /*
