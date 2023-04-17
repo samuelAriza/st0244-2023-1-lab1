@@ -9,7 +9,7 @@
 - Andres Velez Rendon
 
 ------------
-####Operating system version
+####  Operating system version
 -  Ubuntu 22.04.2 LTS
 
 #### The following versions are used for this purpose:
