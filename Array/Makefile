@@ -7,7 +7,7 @@ arithmeticMean: Lab1
 libarithmeticMean: Lab1 arithmeticMean
 	g++ -shared -fPIC -o libArithmeticMean.so libArithmeticMean.o -lc
 run: Lab1 arithmeticMean libarithmeticMean
-	java -cp . -Djava.library.path=. Lab1 filename.txt 
+	java -cp . -Djava.library.path=. Lab1 file.txt 
 	
 clean:
 	rm -rf *.class *.o *.h *.so
