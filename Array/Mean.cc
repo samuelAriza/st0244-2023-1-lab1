@@ -1,6 +1,6 @@
 #include <jni.h>
-#include <iostream>
 #include "Lab1.h"
+#include <iostream>
 using namespace std;
 
 JNIEXPORT jdouble JNICALL Java_Lab1_getArithmeticMean(JNIEnv *env, jobject, jintArray arrayOfNumbers){
@@ -14,4 +14,3 @@ JNIEXPORT jdouble JNICALL Java_Lab1_getArithmeticMean(JNIEnv *env, jobject, jint
     cout << mean << endl;
     return 0;
 }
-
