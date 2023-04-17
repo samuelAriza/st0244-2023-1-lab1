@@ -1,6 +1,6 @@
 # ST0244 Programming Languages
-### Programming Lab 1
-##### Java/C++ Interoperability
+## Programming Lab 1
+### Java/C++ Interoperability
 
 A C++ function is developed that takes as input an array of integers and calculates its arithmetic mean. Then, a Java program is implemented that reads a list of integers from the command line, invokes the C++ function and finally displays the arithmetic mean of the integer array.
 
