@@ -4,7 +4,6 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 //Class Lab1
 class Lab1{
   //Static block to load the shared library
@@ -34,7 +33,6 @@ class Lab1{
      * 
     */
     File f = new File(args[0]);
-    
     /*
      * Scanner object called "input", which is used to
      * read the file from the variable f.
